@@ -10,6 +10,62 @@
 
 ---
 
+## ⚡ 一鍵安裝（最快）
+
+把下面這段直接複製給 OpenCode：
+
+```text
+幫我安裝這個 skill：
+https://github.com/wkl0830-glitch/opencode-skills
+```
+
+OpenCode 會自己讀這份說明，並把訂閱網址寫進設定檔。
+
+> ⚠️ **改完設定要重開 OpenCode** 才會生效。
+
+裝好後，跟 OpenCode 說「**幫我接上 Canva**」就會開始引導登入。
+
+---
+
+## 📨 分享給同事（直接轉傳）
+
+把下面整段複製，貼到 LINE 或群組即可：
+
+```text
+【OpenCode × Canva 連線技能】
+
+1. 安裝 OpenCode V2：https://opencode.ai
+
+2. 打開設定檔（Windows：C:\Users\你的帳號\.config\opencode\opencode.json）
+
+3. 加上這一行：
+   "skills": ["https://raw.githubusercontent.com/wkl0830-glitch/opencode-skills/main/"]
+
+   整份長這樣：
+   {
+     "skills": ["https://raw.githubusercontent.com/wkl0830-glitch/opencode-skills/main/"]
+   }
+
+4. 存檔後重開 OpenCode
+
+5. 跟 OpenCode 說「幫我接上 Canva」，照指示登入 Canva 就完成了
+
+詳情：https://github.com/wkl0830-glitch/opencode-skills
+```
+
+> 💡 懶得開設定檔的人，也可以直接把上面的網址貼給自己的 OpenCode，請它代勞。
+
+### ⚠️ 兩個網址別搞混
+
+| 網址 | 用途 |
+| --- | --- |
+| `https://github.com/wkl0830-glitch/opencode-skills` | 給**人**看的（讀說明） |
+| `https://raw.githubusercontent.com/wkl0830-glitch/opencode-skills/main/` | 給 **OpenCode** 讀的（填進設定檔） |
+
+把 `github.com` 的網址填進 `skills` 會失敗 —— 那是一頁網頁，不是可下載的檔案。
+
+---
+
 ## 前置需求
 
 - 已安裝 **OpenCode V2**
